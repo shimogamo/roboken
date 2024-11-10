@@ -1,2 +1,2 @@
 回路構成
-![回路構成](Block_Diagram.png)
+![回路構成](attachments/Block_Diagram.png)
