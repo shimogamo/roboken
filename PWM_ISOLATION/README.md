@@ -2,7 +2,7 @@
 
 ## 回路構成
 PWM_ISOLATION回路の構成
-![回路構成](Block_Diagram.png)
+![回路構成](attachments/Block_Diagram.png)
 
 ## 動作検証(2024/12/02)
 ### 仕様
@@ -10,10 +10,10 @@ PWM_ISOLATION回路の構成
 PWM周期は通常20ms(つまり、PWM周波数 50Hz)
 ON時間は0.5~2.5msを0~180°または0~270°に対応させる。
 このサーボモータのPWMのHIGH電圧は3.3~5Vであり、今回製作した回路のVSETをこの値に設定する。
-![[Pasted image 20241202150403.png]]
+![](attachments/Pasted image 20241202150403.png)
 ### 概観
 表
-![[Pasted image 20241202151327.png|400]]
+![](attachments/Pasted image 20241202151327.png|400)
 裏
 動作にミスがあったので、フォトカプラのPWM1ピンのみ1kΩの抵抗をつけている。
 ![[Pasted image 20241202151345.png|400]]
